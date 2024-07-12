@@ -2,7 +2,7 @@ version: "2"
 sql:
   - schema: "sql/migrations"
     queries: "sql/queries"
-    engine: "postgresql"
+    engine: "cockroachdb"
     gen:
       go:
-        out: "internal/database"
+        out: "interal/database"
